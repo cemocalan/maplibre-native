@@ -1,0 +1,12 @@
+diff --git a/platform/ios/BUILD.bazel b/platform/ios/BUILD.bazel
+index 2fda4281dc..bac6f0f00f 100644
+--- a/platform/ios/BUILD.bazel
++++ b/platform/ios/BUILD.bazel
+@@ -166,7 +166,6 @@ apple_xcframework(
+     infoplists = ["info_plist"],
+     ios = {
+         "simulator": [
+-            "x86_64",
+             "arm64",
+         ],
+         "device": ["arm64"],
